@@ -1,0 +1,57 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color:white;
+    position: sticky;
+    top: 0px;
+}
+#cisco{
+    padding: 40px 40px 40px 40px;
+}
+.home{
+display: flex;
+}
+.home1{
+    flex:30%
+}
+.home2{
+    flex:70%
+}
+#home2{
+    padding-top: 150px;
+    text-align: center;
+    color: rgb(114, 67, 12);
+}
+main{
+    display:flex;
+}
+aside{
+    flex:30%;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+#buku{
+    box-shadow: 3px 3px 10px gray;
+}
+article{
+    flex:70%;
+    padding-top: 20px;
+}
+footer{
+    position: sticky;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: end;
+}
